@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Existing configurations -->
+        <theme>dark</theme>
+        <encoding>UTF-8</encoding>
+        <protocol>http</protocol>
+        <documentTitle>Extent</documentTitle>
+        <thumbnailBase64>true</thumbnailBase64>
+        <reportName>Grasshopper Report</reportName>
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- Add path for FreeMarker templates -->
+        <templateLoaderPath>/path/to/your/templates</templateLoaderPath>
+
+        <!-- Locale for template loading (optional) -->
+        <locale>en_US</locale>
+
+        <!-- Enable or disable template cache (optional) -->
+        <templateCacheEnabled>false</templateCacheEnabled>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            <![CDATA[
+            $(document).ready(function() {
+            });
+            ]]>
+        </scripts>
+
+        <!-- Custom Styles -->
+        <styles>
+            <![CDATA[
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
